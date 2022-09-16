@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-wrapper{
+  padding: 0 20px;
+}
+nav{
+  background-image: linear-gradient(120deg, #000, #007ec7) !important;
+  border-radius: 0 !important;
+}
+
+.menu{
+  transition: 4s;
+}
+.submenu{
+  position: absolute;
+  left: 0;
+  width: 24% !important;
+  top: 17.2%;
+}
